@@ -23,4 +23,4 @@ if __name__ == '__main__':
     # load_utils = LoadUtils()
     # load_utils.load_yaml()
     # 使用类方法调用
-    print(LoadUtils.load_yaml("data.yaml"))
+    print(LoadUtils.load_yaml("../data.yaml"))

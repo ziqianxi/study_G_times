@@ -1,0 +1,28 @@
+name:
+  effective:
+    - 'jinx'
+    - 'jax'
+  Invalid:
+    - 2
+    - False
+    - 0.5
+
+volume:
+  effective:
+    - 1
+    - 2
+    - 98
+    - 99
+    - 0
+    - 100
+  Invalid:
+    - "x"
+    - False
+power:
+  effective:
+    - 1
+  Invalid:
+    - 0
+    - -1
+    - 0.5
+    - 'hello'
