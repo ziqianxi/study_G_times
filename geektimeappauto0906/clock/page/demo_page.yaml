@@ -1,0 +1,8 @@
+start2:
+  - click: { 'accessibility id': Start }
+reset2:
+  - click: { 'accessibility id': Reset }
+
+appPackage: xxx
+appActivity: ddd
+#  - send_keys: { id: fff, text: dddd }
