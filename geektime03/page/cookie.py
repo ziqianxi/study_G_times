@@ -7,7 +7,7 @@ from selenium.webdriver.common.by import By
 
 class GetCookie:
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
 
     def get_cookie(self):
         self.driver.get('https://ceshiren.com/')

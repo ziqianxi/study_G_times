@@ -15,7 +15,7 @@ def login():
 
 class MainPage:
     def __init__(self):
-        self.driver = webdriver.Chrome()
+        self.driver = webdriver.Firefox()
 
     def get_topic_list(self) -> list[dict]:
         ...
@@ -54,7 +54,6 @@ class MainPage:
         self.driver.find_element(By.CSS_SELECTOR, '#search-button[title=搜索]').click()
         self.driver.find_element(By.CSS_SELECTOR, '.show-advanced-search').click()
         return SearchPage(self.driver)
-
 
 
 
